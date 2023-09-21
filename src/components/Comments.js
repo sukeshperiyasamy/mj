@@ -35,7 +35,7 @@ const Comments = () => {
       >
         <Form.Control as="textarea" placeholder="Leave a comment here" />
       </FloatingLabel>
-      <Button>Submit</Button>
+      <Button  variant='danger' className='rounded-4'>Submit</Button>
 </Form>
     </Col>
 </Row>

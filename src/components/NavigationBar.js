@@ -2,6 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import "bootstrap-icons/font/bootstrap-icons.css"; 
+import Cart from './Cart';
 
 function BasicExample() {
   return (
@@ -17,7 +18,8 @@ function BasicExample() {
             <Nav.Link href="#Deal" className="fw-bold">Deals</Nav.Link>
             <Nav.Link href="#contactus" className="fw-bold">contact us</Nav.Link>
            
-  
+            {/* <Nav.Link href="#cart" className="fw-bold"><i class="bi bi-cart3"></i></Nav.Link> */}
+            <Cart/>
           </Nav>
         </Navbar.Collapse>
       </Container>

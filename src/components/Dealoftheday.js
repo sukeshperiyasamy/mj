@@ -21,7 +21,7 @@ const Dealoftheday = () => {
     <h2 className='h1'> Acid Washed Tshirt</h2>
     <p className='lead text-muted '> An acid-washed T-shirt is a fashion staple known for its vintage charm. Achieved through a unique dyeing process, it sports faded, worn-in patterns that add character to any outfit. Originally popularized in the 1980s, this timeless piece continues to be a symbol of individuality and style, making it a versatile choice for both casual and trendy looks.</p>
     <div className='align-item-center'>
-    <Button varient='danger' onClick={() => setShow(true)}><i class="bi bi-cart-plus" ></i> BuyNow</Button>
+    <Button variant='danger' className='rounded-5' onClick={() => setShow(true)}><i class="bi bi-cart-plus" ></i> BuyNow</Button>
     </div>
 </div>
 

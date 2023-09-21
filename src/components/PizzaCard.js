@@ -24,8 +24,7 @@ const PizzaCard = () => {
           <h4>Centered Modal</h4>
           <p>
             Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
-            dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac
-            consectetur ac, vestibulum at eros.
+            eros.
           </p>
         </Modal.Body>
         <Modal.Footer>
@@ -38,8 +37,8 @@ const PizzaCard = () => {
 
   return (
     <>
-      <Card className="m-3">
-        <Card.Img variant="top" src={require("../Image/tshirt6.jpg")} />
+      <Card className="m-3 ">
+        <Card.Img variant="top"  src={require("../Image/tshirt6.jpg")} />
         <Card.Body>
           <Card.Title>Collar Tshirt</Card.Title>
           <Card.Text>
@@ -47,7 +46,7 @@ const PizzaCard = () => {
             bulk of the card's content.
           </Card.Text>
           <div className="text-center">
-            <Button variant="primary" onClick={() => setModalShow(true)}>
+            <Button variant="danger" className='rounded-5' onClick={() => setModalShow(true)}>
               Add to Basket
             </Button>
           </div>
